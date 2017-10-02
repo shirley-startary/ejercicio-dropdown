@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header{
+  height: 50px;
+  background: #ce852a;
+  color: #fff;
+}
+.menu ul{
+  background: #ce852a;
+  display: flex;
+  list-style: none;
+}
+.menu ul ul{
+  top:50px;
+  position: absolute;
+  display: block;
+}
+.hide{
+  visibility: hidden;
+}
+.menu li{
+  padding: 15px 20px;
+}
+.menu li:hover{
+  background: rgba(0, 0, 0, 0.3);
+}
+.menu li span {
+  margin-left: 10px;
+}
+.show{
+  visibility: visible;
+}
