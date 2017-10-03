@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
 header{
   height: 50px;
   background: #ce852a;
@@ -12,7 +11,6 @@ header{
 }
 .menu ul{
   background: #ce852a;
-  display: flex;
   list-style: none;
 }
 .menu ul ul{
@@ -20,17 +18,23 @@ header{
   position: absolute;
   display: block;
 }
-.hide{
-  visibility: hidden;
-}
 .menu li{
   padding: 15px 20px;
+  display: inline-block;
+}
+
+.menu .itemList li{
+  display: block;
 }
 .menu li:hover{
   background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 .menu li span {
   margin-left: 10px;
+}
+.hide{
+  visibility: hidden;
 }
 .show{
   visibility: visible;
